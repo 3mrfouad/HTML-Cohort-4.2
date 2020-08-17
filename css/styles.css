@@ -1,3 +1,4 @@
-body {
-    background-color: chartreuse;
+/* CSS has two main building blocks, selectors and properties. */
+body /* Selector */ {
+    background-color: chartreuse; /* Property */
 }
