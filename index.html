@@ -9,33 +9,29 @@
         <title>Cohort 4.2 Demo</title>
     </head>
     <body>
-        <!-- The body is used for the stuff that the user sees in the "body" of the webpage (hence the name). -->
-
-        <!-- Attributes add context to tags, and are added with: attribute="" -->
-
-        <!-- Headings are denoted with h1-h6. h1 is biggest, and h6 is smallest. -->
-        <h1>This is a Heading!</h1>
-
-        <!-- Paragraphs are denoted with p. They add line breaks before and after their content. -->
-        <p>Hello, world!</p>
-        <p>Hello, again, world!</p>
-
-        <!-- Images are denoted with the self-terminating img tag. -->
-        <img src="img/nature-1.jpg" alt="A cool picture of nature." title="Cool Nature Picture" />
-
-        <!-- Lists are denoted with either the ul or ol tags, typically. ul is unordered (bullets), ol is ordered (numbers). -->
-        <h2>A List of Programming Languages</h2>
-        <ul>
-            <!-- All children of lists must be list items. -->
-            <li>C#</li>
-            <li>Python</li>
-            <li>Ruby</li>
-        </ul>
-
-        <h2>The Programming Languages We Know</h2>
-        <ol>
-            <li>C#</li>
-            <li>HTML</li>
-        </ol>
+        <h1>Cohort 4.2 Demo Page</h1>
+        <article>
+            <!-- Semantic sectioning elements are used to mark up certain groups of content. Articles, sections and asides. -->
+            <!-- Articles should be self-contained, and should typically not reference other content on the page. -->
+            <h2>Programming Language</h2>
+            <section>
+                <!-- Sections are groups of like content. -->
+                <h3>C#</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laudantium praesentium placeat culpa molestias sapiente illo facere modi libero illum soluta molestiae, eum possimus veritatis error quasi quis aspernatur cum!</p>
+            </section>
+            <section>
+                <h3>Ruby</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione maxime at odit amet deserunt mollitia, dolorum error, recusandae dolor voluptas in, quaerat quo? Reiciendis minus suscipit labore dicta omnis earum?</p>
+            </section>
+            <section>
+                <h3>Python</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum vitae deleniti labore laborum animi asperiores fuga quis ea nihil! Molestias, debitis laboriosam perferendis eligendi adipisci temporibus architecto? Ea, tempora labore?</p>
+            </section>
+        </article>
+        <aside>
+            <!-- Asides are tangentially related to the main article of the page. -->
+            <h2>Programming Fun-Fact</h2>
+            <p>Did you know that all programming languages are converted to binary to be executed? Wow!</p>
+        </aside>
     </body>
 </html>
