@@ -1,4 +1,23 @@
-/* CSS has two main building blocks, selectors and properties. */
-body /* Selector */ {
-    background-color: chartreuse; /* Property */
+html {
+    background-color: #DDD;
 }
+h1 {
+    font-size: 52px;
+    font-weight: bold;
+    text-decoration: underline;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+p {
+    color: #222;
+}
+section {
+    background-color: #0C0;
+}
+section.blue {
+    background-color: #00C;
+}
+.red {
+    background-color: #C00;
+}
+
